@@ -1,5 +1,5 @@
 class Animal {
-  private _species: string;
+  protected _species: string;
 
   constructor(species: string) {
     this._species = species;
